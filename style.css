@@ -1,0 +1,419 @@
+.header{
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header-left{
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-left-item{
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 1.05em;
+}
+
+.header-left-item:hover{
+    text-decoration: none;
+}
+
+.header-left-item:hover{
+    cursor: pointer;
+    color: #333f48;
+}
+
+.header-left-item:first-child{
+    padding-left: 0;
+}
+
+.header-left-item:last-child{
+    padding-right: 0;
+}
+
+.header-logo-img{
+    width: 156px;
+}
+
+.header-right{
+    position: absolute;
+    right: 0;
+    padding-right: 40px;
+}
+
+.header-right-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-right-searchbox{
+    position: relative;
+    margin-right: 16px;
+}
+
+input{
+    width: 256px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: #F6F6F6;
+    font-size: 1.4em;
+    padding-left: 40px;
+    font-weight: 500;
+    font-family: Open Sans;
+}
+
+.search-history{
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 256px;
+    height: 119px;
+    background-color: #fff;
+    border-radius: 18px;
+    border: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    outline: 1px solid #C8C7CC;
+    z-index: 10;
+    display: none;
+    box-shadow: 1px 1px rgb(65, 63, 63);
+}
+
+.search-history-form{
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    top: 0;
+    left: -15px;
+    padding: 0 15px;
+
+}
+
+.search-history-item{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 40px);
+    bottom: 0;
+    left: 0;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+input:focus ~ .search-history{
+    display: flex;
+}
+
+
+.header-right-icon{
+    font-size: 1.5em;
+    padding: 0 14px;
+}
+
+.header-right-icon:last-child{
+    padding-right: 0;
+}
+
+.header-right-icon:hover{
+    cursor: pointer;
+}
+
+.find-icon{
+    font-size: 1em;
+    position: absolute;
+    left: 16px;
+    top: 14px;
+}
+
+.find-icon:hover{
+    cursor: pointer;
+}
+
+
+.header-policy{
+    width: 100%;
+    height: 42px;
+    background: linear-gradient(135deg, #e65c00, #f9d423);
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: var(--white-color);
+    font-size: 1.6em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.slide-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-index{
+    width: 100%;
+    height: 514px;
+    margin-top: 5%;
+}
+
+.slide-policy-item{
+    display: flex;
+    align-items: center;
+}
+
+.slider-banner-img{
+    width: 100%;
+    height: 514px; 
+}
+
+.index{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-item{
+    margin-top: 50px;
+}
+
+.promo-index{
+    display: inline-flex;
+    margin-right: 16px;
+}
+
+.promo-item-img{
+    width: 715px;
+    height: 303px;
+}
+
+.promo-item-img:first-child{
+    margin-right: 4px;
+}
+
+.promo-item-img:last-child{
+    margin-left: 4px;
+}
+
+.sales-item-img{
+    width: 1439px;
+    height: 517px;
+}
+
+.home-product-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.home-item-img{
+    width: 337px;
+    height: 602px;
+}
+
+.carousel-indicators{
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.unisex-1{
+    width: 354px;
+    height: 596px;
+    background-color: #fff;
+}
+
+.unisex-2{
+    width: 354px;
+    height: 596px;
+    background-color: #fff;
+}
+
+.unisex-3{
+    width: 354px;
+    height: 596px;
+    background-color: #fff;
+}
+
+.slider-product{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.product{
+    padding: 0 8px;
+}
+
+.sportchic-img{
+    width: 1439px;
+    height: 517px;
+}
+
+.product-coat-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.coat-index{
+    margin-right: 16px;
+}
+
+.product-winter-img{
+    width: 1439px;
+    height: 517px;
+    margin-top: 56px;
+}
+
+.athome-index{
+    margin-right: 16px;
+}
+
+.product-athome-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.aokhoacgio{
+    width: 1439px;
+    height: 517px;
+}
+
+.registernews{
+    display: flex;
+    flex-direction: row;
+    max-width: 1439px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 94px;
+}
+
+.registernews-item{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color:#F6F6F6;
+    width: 715px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-registernews{
+    width: 372px;
+    height: 48px;
+    background-color: #Fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 1.1em;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color:#F6F6F6;
+    width: 715px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}   
+
+.icon-kite{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.4em;
+    position: absolute;
+    right: 54%;
+}
+
+.media-icon{
+    font-size: 3em;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.boardnews{
+    width: 100%;
+    max-width: 1439px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-boardnews{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-img{
+    width: 476px;
+    height: 240px;
+}
+
+.new-item{
+    padding: 0 12px;
+    cursor:pointer;
+}
+
+.news-info{
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 24px 0;
+}
+
+.new-day{
+    font-size: 1.05em;
+    color:#bcbac5;
+}
+
+.new-day:hover{
+    cursor: default;
+}
+
+.add-btn{
+    background-color: orange;
+    cursor: pointer;
+    width: 220px;
+    height: 50px;
+    margin: 60px 0;
+    outline: none;
+    border: 1px solid pink;
+    border-radius: 18px;
+    cursor: pointer;
+}
